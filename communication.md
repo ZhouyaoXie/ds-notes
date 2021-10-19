@@ -12,8 +12,11 @@
   - How are certain quantities defined?
   - What is the target variable/key metric?
 - Narrow down the problem and determine the objective
-- Hypothesize and provide a solution
-- Analyze data and evaluate result - how does the result validate or invalidate the hypothesis?
+- Collect data
+- Preprocess data, EDA, make visualizations
+- Select an appropriate model (linear regression, logistic regression, SVM, gradient boosting decision tree, neural network, etc.)
+- Perform feature selection (forward/backward selection based on F-ratio or Mellow's Cp) and feature engineering (categorical variables, imputation, binning, log transform, scaling, etc.)
+- Train and evaluate model (split data into train, validate, test; perform cross validation)
 - Communicate tradeoffs of the proposed solution
 
 ### Drop in Metric

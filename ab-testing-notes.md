@@ -16,9 +16,10 @@
       - Increase confidence level (1 - alpha) -> more data
       - Higher sensitivity (1 - beta) -> more data
     - Round days by week to capture the weekly pattern
-3. Use the appropriate hypothesis test (z-test/t-test), compute p-value to check whether it is statistically significant.
-4. Compute confidence interval. Check whether the interval is practically significant.
-5. Make a decision: change, do not change, or need to collect more data
+3. Decide how to split users randomly into control groups and treatment groups
+4. Use the appropriate hypothesis test (z-test/t-test), compute p-value to check whether it is statistically significant.
+5. Compute confidence interval. Check whether the interval is practically significant.
+6. Make a decision: change, do not change, or need to collect more data
 
 ## Multiple Testing
 

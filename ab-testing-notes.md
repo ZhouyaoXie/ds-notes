@@ -1,3 +1,5 @@
+[Reference: Udacity course on A/B Testing](https://classroom.udacity.com/courses/ud257)
+
 ## Designing the Test
 
 1. Hypothesis: 

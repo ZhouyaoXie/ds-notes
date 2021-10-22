@@ -1,21 +1,23 @@
 ## Designing the Test
 
 1. Hypothesis: 
-  - what is the change
-  - which metric to use to evaluate the effect of the change (e.g. CTR, click-through-probability (unique visitors who clicked/unique visitots to page))
-    - To measure usability (number of clicks), use click-through-rate
-    - To measure impact (number of users), use click-through-probability
+    - what is the change
+    - which metric to use to evaluate the effect of the change (e.g. CTR, click-through-probability (unique visitors who clicked/unique visitots to page))
+        - To measure usability (number of clicks), use click-through-rate
+        - To measure impact (number of users), use click-through-probability
 2. Decide minimum sample size & How long to run an A/B test
-  - Power (1 - Type II error): the larger the power you want, the more data you will need to collect.
-  - Significance level
-  - Practical significance level/Minimum detectable effect
-  - Small sample: lower Type I error, higher Type II error. Want sensitivity (1-Type II error) to be large (typically 80%) at the practical significant level.
-  - How do parameters affect sample size:
-    - Higher p, but still less than 0.5 -> more data
-    - Increase practical significance level -> fewer data
-    - Increase confidence level (1 - alpha) -> more data
-    - Higher sensitivity (1 - beta) -> more data
-  - Round days by week to capture the weekly pattern
+    - Power (1 - Type II error): the larger the power you want, the more data you will need to collect.
+    - Significance level
+    - Practical significance level/Minimum detectable effect
+    - Small sample: lower Type I error, higher Type II error. Want sensitivity (1-Type II error) to be large (typically 80%) at the practical significant level.
+    - How do parameters affect sample size:
+      - Higher p, but still less than 0.5 -> more data
+      - Increase practical significance level -> fewer data
+      - Increase confidence level (1 - alpha) -> more data
+      - Higher sensitivity (1 - beta) -> more data
+    - Round days by week to capture the weekly pattern
+3. Use the appropriate hypothesis test
+4. Interpret the result (change, do not change, or need to collect more data)
 
 ## Multiple Testing
 

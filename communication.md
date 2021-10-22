@@ -41,11 +41,10 @@
 
 ### Whether to launch a new functionality 
 
-- clarify
+- clarify the goal and define metrics
 - experimentation
-  - split user into control & experiment
-  - sample size
-  - how long to run the experiment
+  - how to split users randomly into control & experiment
+  - how to determine sample size & how long to run the experiment
 - recommendation based on experiment results
   - link results to goal and business impact
   - what to do if you see conflicting results
